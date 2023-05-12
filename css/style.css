@@ -1,0 +1,326 @@
+*{
+  font-family: 'Montserrat',sans-serif;
+}
+footer,section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+header{
+  background: none;
+}
+header .menu{
+  padding-top: 1rem;
+  position: absolute;
+  top: 1rem;
+  background-color: none;
+}
+
+.mainPage{
+  background: url(../src/img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mainText h1{
+  font-weight: 800;
+}
+.mainText p{
+  color: rgba(187, 185, 185, 0.808);
+  line-height: 2rem;
+}
+.whtsBtn{
+  padding: 12px 28px;
+  background-color: #47cd68;
+  color: black;
+  border: none;
+  border-radius: 22px;
+  font-weight: 500;
+}
+/* .mobile{
+  padding-left: 2rem;
+} */
+.mobile .imgM{
+  height: 460px;
+}
+.categories{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.box{
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: #0000003d 0px 0px 40px;
+  line-height: 2rem;
+}
+.box h4{
+  font-weight: 700;
+}
+.box p{
+  margin-bottom: 0;
+  padding-top: 10px;
+  color: rgba(128, 128, 128, 0.74);
+}
+.box a{
+  padding-top: 0;
+  text-decoration: none;
+}
+.futArea{
+  background: url(../src/img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.fut-head{
+  margin-bottom: 3.4rem;
+}
+.fut-head div{
+  position: relative;
+  left: 46%;
+}
+.fut-head h2{
+  font-weight: 700;
+  padding-right: 2px;
+}
+.fut-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.fut-img{
+  height: 110px;
+  width: fit-content;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: #e0e0e0 1px 1px 20px 0px;
+}
+.fut-img img{
+  filter: invert(35%) sepia(13%) saturate(3745%) hue-rotate(197deg) brightness(91%) contrast(94%);
+}
+.fut-card h5{
+  font-weight: 700;
+  padding: 0 16px;
+  padding-right:2rem;
+}
+
+
+/* ------ourCrypto fam area ----------*/
+.cf_area{
+  background: #3067f0;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.cf_head h2{
+  font-weight: 700;
+}
+.cf_head div{
+  position: relative;
+    left: 46%;
+}
+.cf_head{
+  padding-bottom: 1.8rem;
+  margin-bottom: 2rem;
+}
+.col_i {
+  filter: invert(100%) sepia(62%) saturate(2382%) hue-rotate(336deg) brightness(102%) contrast(102%);
+  height: 80px; 
+  width: fit-content;
+  margin-top: -50px;
+  margin-left: 5rem;
+}
+.wts_sub{
+  padding-right: 2rem;
+  margin-bottom: 1rem;
+}
+.wts_sub h5{
+  font-weight: 600;
+}
+.wts_sub p{
+  padding-right: 1rem;
+  padding-top: 5px;
+  line-height: 2rem;
+}
+
+/* why choose */
+
+.whyChoose{
+  /* position: relative; */
+  background: url(../src/img/bg-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 55px;
+}
+
+.mobile img{
+  /* height: 100%;  */
+  max-width: 500px;
+  object-fit: cover;
+  
+}
+.whyChoose h1{
+  font-weight: 700;
+  overflow: auto;
+}
+.line{
+  width: 85px;
+  height: 3px;
+  background-color: #ffeb3b;
+}
+.row2{
+  position: relative;
+  left: 48%;
+  /* right: 45%; */
+}
+.icard{
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem;
+}
+.icard h4{
+  font-weight: 600;
+}
+.ul img{
+  margin-bottom: 1rem;
+  padding: 18px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: #0000003d 1px 1px 20px 0px;
+}
+/*-------- why end ---------*/
+
+/*-------- faq area ---------*/
+
+.faq h1{
+  font-size: 2rem;
+  font-weight: 800;
+
+}
+.para{
+  padding-top: 10px;
+  font-weight: 400;
+  /* font-family: 'Montserrat' sans-serif; */
+}
+.para h3{
+  font-weight: 600;
+}
+.para p{
+  line-height: 2rem;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.row2 :first-child{
+  margin-top: 2rem;
+}
+
+/*--------Footer are--------*/
+.logo img{
+  height: 80px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  
+}
+.footer {
+    position: relative;
+    background: url(../src/img/bg-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .footer_ul{
+    list-style: none;
+    padding-left: 0;
+    
+  }
+  .footer_ul li{
+    padding: 6px 0 4px 0;
+  }
+  /* .footer_ul li a{
+    text-decoration: none;
+  } */
+  .footer_header{
+    padding-left: 0;
+    font-weight: 600;
+  }
+  .footer_li{
+    /* font-size: 12px; */
+    font-weight: 600;
+    opacity: 50%;
+  }
+  .li{
+    padding-top: 12px;
+
+  }
+ footer p{
+    padding: 6px 0 0 0;
+  }
+  
+
+  /*-------- Buttons Area --------*/
+
+  footer button{
+    border-radius: 10px;
+    color: #3067f0;
+    font-weight: 600;
+  }
+  .btn_t2 :nth-child(2){
+    margin-left: 1rem;
+  }
+  .btn_t :nth-child(2){
+    margin-left: 5px;
+  }
+  .w_btn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px ;
+    color: #5bcd47;
+    box-shadow: #0000003d 1px 1px 20px 0px;
+  }
+  .w_btn:hover{
+    color: white;
+    background-color: #5bcd47;
+  }
+  .t_btn{
+    padding: 15px 30px;
+    background: none;
+    border-radius: 10px;
+  }
+  .t_btn:hover{
+    /* border: rgb(66, 139, 248) 2px; */
+    background-color: rgb(66, 139, 248);
+    color: white;
+    box-shadow: #0000003d 1px 1px 20px 0px;
+  }
+  .gb_btn{
+    border: solid grey 1px;
+    color: #3067f0;
+  }
+  .wb_btn{
+    border-color: white;
+    color: #fff;
+
+  }
+  /*-------- button area end --------*/
+
+  /*-------- footer bottom Text --------*/
+  .footer_bottom{
+    padding: 20px 0;
+    
+  }
+  .footer_bottom h6{
+    color: #3067f0;
+    font-weight: 700;
+    margin-top: 2rem;
+  }
+
+
